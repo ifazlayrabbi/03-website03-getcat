@@ -1,0 +1,26 @@
+
+button {
+    border: none;
+}
+
+.container-fluid {
+    padding: 4% 15%;
+}
+
+.h1class {
+    font-family: 'Montserrat', serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900; 
+    color: #fff;
+}
+
+.col-sm-12 {
+    padding-top: 2%;
+}
+.navbar { padding-bottom: 5rem;}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 2rem; 
+    font-weight: 900;
+}
