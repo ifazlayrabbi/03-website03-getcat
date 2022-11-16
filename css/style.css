@@ -20,6 +20,15 @@ button {border: none;}
     font-size: 2rem; 
     font-weight: 900;
 }
+
+.nav-bg-color {background-color: #633a85;}
+.fixed-top {
+    padding: 0.5% 15%;
+}
+.grid-margin {
+    margin-top: 7rem;
+}
+
 .nav-item {padding: 0px 18px}
 .nav-link {font-family: 'Montserrat'; font-weight: 300;}
 .dw-btn {margin: 0.32rem}
@@ -66,13 +75,15 @@ button {border: none;}
     font-weight: bold;
 }
 .sec3-img {
-    width: 15%;
+    width: 20%;
     border-radius: 100%;
     margin: 2rem;
 }
 .sec3-img2 {
-    width: 10%;
+    width: 15%;
     margin: 1rem;
 }
 .sec3-img-div {margin-top: 5rem;}
+
+.carousel-width {width: 300px;}
 
