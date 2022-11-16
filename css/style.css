@@ -20,6 +20,4 @@ button {border: none;}
 .nav-item {padding: 0px 18px}
 .nav-link {font-family: 'Montserrat'; font-weight: 300;}
 .dw-btn {margin: 0.32rem}
-.rotate-image {
-    transform: rotate(25deg);
-}
+.rotate-image {transform: rotate(25deg);}
