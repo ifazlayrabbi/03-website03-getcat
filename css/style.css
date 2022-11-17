@@ -62,7 +62,7 @@ button {border: none;}
 
 /* section 3 */
 
-#section-3 {
+#sec3 {
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -89,4 +89,40 @@ button {border: none;}
 .sec3-img-div {margin-top: 5rem;}
 
 .carousel-width {width: 300px;}
+
+
+
+
+/* section 4 */
+
+#sec4 {
+    padding: 7% 15%;
+    text-align: center;
+}
+.sec4-pad {padding-top: 8%}
+.sec4-h2 {
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #5e5555;
+}
+.sec4-p {
+    font-family: 'Montserrat';
+    color:#8f8f8f;
+    font-size: 1rem;
+}
+.color88 {
+    color: #8f8f8f;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+}
+.sec4-name {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    color: #9d5ece;
+}
+
+
 
