@@ -85,6 +85,7 @@ button {border: none;}
 .sec3-img2 {
     width: 15%;
     margin: 1rem;
+    border-radius: 100%;
 }
 .sec3-img-div {margin-top: 5rem;}
 
