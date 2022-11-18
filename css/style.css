@@ -151,8 +151,14 @@ button {border: none;}
 }
 .sec5-link {
     text-decoration: none;
-    color:#8f8f8f;
     padding: 5%;
+}
+.sec5-color {
+    color:#8f8f8f;
+}
+.sec5-img {
+    width: 20px;
+    margin-right: 5px;
 }
 .copyright {
     padding: 2rem 0;
