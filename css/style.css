@@ -32,11 +32,25 @@ button {border: none;}
 .nav-item {padding: 0px 18px}
 .nav-link {font-family: 'Montserrat'; font-weight: 300;}
 .dw-btn {margin: 0.32rem}
-.rotate-image {transform: rotate(25deg);}
+.phone-img-parent {
+    position: relative;
+    height: 25rem;
+}
+.sec1-phone-img {
+    transform: rotate(25deg);
+    position: absolute;
+    right: 10%;
+}
 
 
 
 /* section 2 */
+
+#sec2 {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
 
 .sec2-style {
     padding: 7% 15%;
