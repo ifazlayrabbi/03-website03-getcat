@@ -127,3 +127,22 @@ button {border: none;}
 
 
 
+
+/* section 5 */
+
+#sec5 {
+    text-align: center;
+    padding-top: 1.5rem;
+    background-color: #633a85;
+}
+.sec5-link {
+    text-decoration: none;
+    color:#8f8f8f;
+    padding: 5%;
+}
+.copyright {
+    padding: 2rem 0;
+    color: #fff;
+}
+
+
