@@ -2,9 +2,7 @@
 
 /* section 1 */
 
-button {border: none;}
-.container-fluid {padding: 3% 15%;}
-
+#sec1 {padding: 3% 15%;}
 .h1class {
     font-family: 'Montserrat';
     font-size: 3rem;
@@ -48,7 +46,6 @@ button {border: none;}
 
 #sec2 {
     position: relative;
-    z-index: 1;
     background-color: #fff;
 }
 
