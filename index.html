@@ -24,13 +24,13 @@
     <section id="sec1" class="container-fluid" style="background-color: #ff4c68">
       
       <!-- navigation bar -->
-      <nav class="sec1-navbar fixed-top navbar navbar-expand-md navbar-dark">
+      <nav id="sec1-navbar_if-fixed-top-enabled" class="fixed-top navbar navbar-expand-md navbar-dark">
         <a class="sec1-navbar-font navbar-brand" href="#">tindog</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ms-auto">  <!-- ms-auto = spacing (margin left)-->
               <li class="nav-item"><a class="nav-link" href="#footer">Contacts</a></li>
               <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
               <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
@@ -39,7 +39,7 @@
       </nav>
       
       <!-- grid layout -->
-      <div class="row grid-margin alignment">
+      <div id="grid-margin_if-fixed-top-enabled" class="row grid-margin">
         <div class="col-lg-6 col-md-6">
           <h1 class="sec1-h1">Meet new and interesting dogs nearby.</h1>
           <button type="button" class="sec1-btn-margin btn btn-dark"><i class="fa-brands fa-apple"></i> Download</button>
@@ -57,7 +57,7 @@
 
     <!-- section 2 -->
 
-    <section class="sec2-style" id="sec2">
+    <section id="sec2" class="padding7-15">
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12">
           <i class="icon-color fa-regular fa-circle-check fa-4x"></i>
@@ -85,17 +85,17 @@
     <section id="sec3">
       <div id="carouselButtonControls" class="carousel slide" data-bs-ride="carousel" data-interval="1">
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active padding7-15">
             <h2 class="sec3-h2">Found a perfect dog with the help of tindog.</h2>
             <img class="sec3-img" src="images/5.jpg" alt="Alexandra">
             <em>Alexandra, New York</em>          
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item padding7-15">
             <h2 class="sec3-h2">I no longer have to sniff other dogs for love. I've found the hotest corgi on TinDog. Woof!</h2>
             <img class="sec3-img" src="images/pp.jpg" alt="Pebbles">
             <em>Pebbles, New York</em>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item padding7-15">
             <h2 class="sec3-h2">My dog used to be so lonely, but with TinDog's help, they've found the love of their life.</h2>
             <img class="sec3-img" src="images/2.jpg" alt="Sarah">
             <em>Sarah, LA</em>
@@ -123,12 +123,12 @@
 
     <!-- pricing section -->
     
-    <section id="pricing">
+    <section id="pricing" class="padding7-15">
       <h2 class="pricing-h2">A Plan for Every Dog's Need</h2>
       <p class="pricing-p">Simple and affordable price plans for your dog.</p>
       
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-6 pricing-pad">
+        <div class="col-lg-4 col-md-6 pricing-box-margin">
           <div class="card">
             <div class="card-header">
               <h4>Free</h4>
@@ -136,7 +136,7 @@
             <div class="card-body">
               <h1>$0</h1>
               <ul class="list-unstyled">
-                <h2 class="sec4-name">Chihuahua</h2>
+                <h2 class="pricing-name">Chihuahua</h2>
                 <li>5 Matches Per Day</li>
                 <li>10 Messages Per Day</li>
                 <li>Unlimited App Usage</li>
@@ -146,7 +146,7 @@
           </div>
         </div>
       
-        <div class="col-lg-4 col-md-6 col-sm-6 pricing-pad">
+        <div class="col-lg-4 col-md-6 pricing-box-margin">
           <div class="card">
             <div class="card-header">
               <h4>Pro</h4>
@@ -154,7 +154,7 @@
             <div class="card-body">
               <h1>$49.99<span class="color88">/mo</span></h1>
               <ul class="list-unstyled">
-                <h2 class="sec4-name">Labrador</h2>
+                <h2 class="pricing-name">Labrador</h2>
                 <li>50 Matches Per Day</li>
                 <li>Unlimited Messages</li>
                 <li>Unlimited App Usage</li>
@@ -164,7 +164,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 pricing-pad">
+        <div class="col-lg-4 pricing-box-margin">
           <div class="card border-primary">
             <div class="card-header text-bg-warning">
               <h4>Enterprise</h4>
@@ -172,7 +172,7 @@
             <div class="card-body">
               <h1>$99.99<span class="color88">/mo</span></h1>
               <ul class="list-unstyled">
-                <h2 class="sec4-name">Mastiff</h2>
+                <h2 class="pricing-name">Mastiff</h2>
                 <li>Unlimitted Matches</li>
                 <li>Unlimitted Messages</li>
                 <li>Unlimited App Usage</li>
@@ -189,8 +189,8 @@
 
     <!-- download section -->
 
-    <section id="download">
-      <h3 class="sec1-h1">Find the True Love of Your Dog's Life Today.</h3>
+    <section id="download" class="padding7-15">
+      <h3 class="sec1-h1" style="text-align: center;">Find the True Love of Your Dog's Life Today.</h3>
       <button type="button" class="sec1-btn-margin btn btn-dark"><i class="fa-brands fa-apple"></i> Download</button>
       <button type="button" class="sec1-btn-margin btn btn-light"><i class="fa-brands fa-google-play"></i> Download</button>
     </section>

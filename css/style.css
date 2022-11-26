@@ -1,25 +1,34 @@
 
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.padding7-15 {padding: 7% 15%;}
+
+
 
 /* section 1 */
 
-#sec1 {padding: 3% 15%;}
-.sec1-navbar {
-    padding: .5% 15%;
+#sec1 {padding: 3% 15% 7%;}
+#sec1-navbar_if-fixed-top-enabled {
+    padding: .5% 15%; /* when fixed-top enabled, explicitly mention navbar's padding */
     background-color: #633a85;
 }
+#grid-margin_if-fixed-top-enabled {margin-top: 8rem;}
+
 .sec1-navbar-font {
     font-family: 'Ubuntu', sans-serif; 
     font-size: 2rem; 
     font-weight: 900;
 }
 .nav-item {padding: 0px 18px}
-.nav-link {font-family: 'Montserrat'; font-weight: 300;}
+.nav-link {font-weight: 300;}
 
 
 
-.grid-margin {margin-top: 8rem;}
+.grid-margin {margin-top: 4rem;}
 .sec1-h1 {
-    font-family: 'Montserrat';
+    text-align: left;
     font-size: 3rem;
     line-height: 1.5;
     font-weight: 900; 
@@ -43,7 +52,7 @@
         position: static;
         margin-top: 2rem;
     }
-    .alignment{text-align: center;}
+    .sec1-h1{text-align: center;}
 }
 
 
@@ -54,11 +63,6 @@
 #sec2 {
     position: relative;
     background-color: #fff;
-}
-
-.sec2-style {
-    padding: 7% 15%;
-    text-align: center;
 }
 .font-sec2 {
     font-weight: bold;
@@ -80,16 +84,10 @@
 /* section 3 */
 
 #sec3 {
-    text-align: center;
     background-color: #ef8172;
     color: #fff;
 }
-.carousel-item {
-    padding: 7% 15%;
-
-}
 .sec3-h2 {
-    font-family: 'Montserrat';
     font-size: 3rem;
     line-height: 1.5;
     font-weight: 900;
@@ -111,13 +109,8 @@
 
 /* pricing section */
 
-#pricing {
-    padding: 7% 15%;
-    text-align: center;
-}
-.pricing-pad {padding-top: 8%}
+.pricing-box-margin {margin-top: 8%}
 .pricing-h2 {
-    font-family: 'Montserrat';
     font-size: 2.5rem;
     font-weight: 900;
     padding-top: 2rem;
@@ -125,17 +118,15 @@
     color: #5e5555;
 }
 .pricing-p {
-    font-family: 'Montserrat';
-    color:#8f8f8f;
     font-size: 1rem;
+    color:#8f8f8f;
 }
 .color88 {
-    color: #8f8f8f;
-    font-family: 'Montserrat';
     font-size: 1.5rem;
+    color: #8f8f8f;
+
 }
 .pricing-name {
-    font-family: 'Montserrat';
     font-weight: 900;
     color: #9d5ece;
 }
@@ -145,11 +136,7 @@
 
 /* download section */
 
-#download {
-    text-align: center;
-    background-color: #ff4c68;
-    padding: 7% 15%;
-}
+#download {background-color: #ff4c68;}
 
 
 
@@ -157,7 +144,6 @@
 /* footer section */
 
 /* #footer {
-    text-align: center;
     padding-top: 2rem;
     background-color: #633a85;
 }
@@ -175,9 +161,7 @@
     color: #fff;
 } */
 
-#footer {
-    padding: 3% 15%;
-    text-align: center;
-}
+#footer {padding: 3% 15%;}
 .icon-padding{padding: 20px 10px;}
 .copyright{color: #8f8f8f;}
+
