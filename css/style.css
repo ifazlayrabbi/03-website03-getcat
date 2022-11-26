@@ -9,7 +9,9 @@ body {
 
 /* section 1 */
 
-#sec1 {padding: 3% 15% 7%;}
+#sec1 {background-color: #ff4c68}
+#sec1.padding7-15 {padding: 3% 15% 7%}
+
 #sec1-navbar_if-fixed-top-enabled {
     padding: .5% 15%; /* when fixed-top enabled, explicitly mention navbar's padding */
     background-color: #633a85;
