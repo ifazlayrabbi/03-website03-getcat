@@ -4,13 +4,16 @@ body {
     text-align: center;
 }
 .padding7-15 {padding: 7% 15%;}
+.colored-section {background-color: #ff4c68;}
+
 
 
 
 /* section 1 */
 
-#sec1 {background-color: #ff4c68}
-#sec1.padding7-15 {padding: 3% 15% 7%}
+#sec1.padding7-15 {
+    padding: 3% 15% 7%;
+}
 
 #sec1-navbar_if-fixed-top-enabled {
     padding: .5% 15%; /* when fixed-top enabled, explicitly mention navbar's padding */
@@ -75,7 +78,7 @@ body {
     font-weight: 500;
 }
 .icon-color {
-    color: #ff8172;
+    color: #ef8172;
     padding-bottom: 1rem;
 }
 .icon-color:hover {color: #ff4c68}
@@ -132,13 +135,6 @@ body {
     font-weight: 900;
     color: #9d5ece;
 }
-
-
-
-
-/* download section */
-
-#download {background-color: #ff4c68;}
 
 
 
