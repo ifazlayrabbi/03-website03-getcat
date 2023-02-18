@@ -1,6 +1,6 @@
 # site3-getcat-website
 Website: https://ifazlayrabbi.github.io/site3-getcat-website/
 
-- This is a cat selling website.
+- This is a cat providing website.
 
 - The website is built with Bootstrap to meet the goal of using less CSS and getting a responsive website.
