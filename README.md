@@ -1,5 +1,5 @@
-# site3-getcat-website
-Website: https://ifazlayrabbi.github.io/site3-getcat-website/
+# website03-getcat
+Website: https://ifazlayrabbi.github.io/website03-getcat/
 
 - This is a cat providing website.
 
